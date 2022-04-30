@@ -1,0 +1,114 @@
+*{
+    margin-top: auto;
+    font-family: 'Rajdhani', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+
+.contentLayout{
+    height: 700px;
+    background-color: black;
+}
+.boxWrapper{
+    width:100%
+}
+.jb-box {
+    width: 100%; 
+    height: 100%;
+    overflow: hidden;
+}
+video {
+    width: 45%; 
+}
+.mint-btn-wrapper{
+    background-color:'white';
+    width:'100%';
+}
+.mint-btn{
+    width:20%;
+    height:60px;
+    border-radius: 30px;
+}
+.mint-btn {
+    background: linear-gradient(0deg, rgba(238, 27, 4, 0.705) 100%, rgba(251,75,2,4) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    width:20%;
+    border-radius: 25px;
+    margin:10px;
+    }
+    .mint-btn span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    }
+    .mint-btn:before,
+    .mint-btn:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: rgba(251,75,2,1);
+    box-shadow:
+    -7px -7px 20px 0px rgba(255,255,255,.9),
+    -4px -4px 5px 0px rgba(255,255,255,.9),
+    7px 7px 20px 0px rgba(0,0,0,.2),
+    4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 3s ease;
+    }
+    .mint-btn:before{
+    height: 0%;
+    width: 2px;
+    }
+    .mint-btn:after {
+    width: 0%;
+    height: 2px;
+    }
+    .mint-btn:hover{
+    color: rgba(251,75,2,4);
+    background: transparent;
+    }
+    .mint-btn:hover:before {
+    height: 100%;
+    }
+    .mint-btn:hover:after {
+    width: 100%;
+    }
+    .mint-btn span:before,
+    .mint-btn span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: rgba(251,75,2,1);
+    box-shadow:
+    -7px -7px 20px 0px rgba(255,255,255,.9),
+    -4px -4px 5px 0px rgba(255,255,255,.9),
+    7px 7px 20px 0px rgba(0,0,0,.2),
+    4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+    }
+    .mint-btn span:before {
+    width: 2px;
+    height: 0%;
+    }
+    .mint-btn span:after {
+    height: 2px;
+    width: 0%;
+    }
+    .mint-btn span:hover:before {
+    height: 100%;
+    }
+    .mint-btn span:hover:after {
+    width: 100%;
+    }
+.Header-Layout{
+    width:100%;
+    height:100px;
+    background-color: black;
+}
+.footerLayout{
+    background-color: black;
+    height:162px;
+}
